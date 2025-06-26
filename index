@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Franko Pačarić | About Me</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #ffffff;
+      background: linear-gradient(135deg, #1f0036, #000000);
+      min-height: 100vh;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+    }
+
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #1e90ff;
+    }
+
+    .name-box {
+      border-left: 5px solid red;
+      border-right: 5px solid red;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .name-box h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .name-box p {
+      margin: 5px 0 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      border-bottom: 2px solid #444;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+    }
+
+    img.icon {
+      width: 32px;
+      height: 32px;
+      margin-right: 10px;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .email {
+      background-color: #1e1e1e;
+      padding: 10px;
+      border-radius: 6px;
+      display: inline-block;
+      margin-left: 42px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+      .name-box h1 {
+        font-size: 2em;
+      }
+      .email {
+        margin-left: 0;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://imgs.search.brave.com/Tj-vupyf1wvN0Q5o8dAIRgk4t8Tpy1BgCKNS43COTjQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/Zm9ybXVsYW9uZWhp/c3RvcnkuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIzLzEw/L1l1a2ktVHN1bm9k/YS1GMS0yMDI0Lndl/YnA"
+         alt="Yuki Tsunoda Profile" />
+    <div class="name-box">
+      <h1>Franko Pačarić</h1>
+      <p>Programmer & Web Developer</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="section">
+      <h2>About Me</h2>
+      <p>Hey! I'm Franko — I love building games and websites, and I’m a huge Formula 1 fan. Yuki Tsunoda is my favorite driver, and let’s be honest... Fernando Alonso is so smash.</p>
+    </section>
+
+    <section class="section">
+      <h2>Projects</h2>
+      <ul class="projects">
+        <li>
+          <img class="icon" src="https://i.imgur.com/X1IplmI.png" alt="President Calculator icon" />
+          <strong>President Calculator:</strong>
+          <a href="https://github.com/FRANKOZNAKODIRATI/Presidents-calculator-" target="_blank">View on GitHub</a>
+        </li>
+        <li>
+          <img class="icon" src="https://i.imgur.com/mXvKvrl.png" alt="Treasure Tiles icon" />
+          <strong>Treasure Tiles:</strong>
+          <a href="https://github.com/FRANKOZNAKODIRATI/stab" target="_blank">View on GitHub</a>
+        </li>
+        <li>
+          <img class="icon" src="https://i.imgur.com/sjsnTxA.png" alt="Track Wars icon" />
+          <strong>Track Wars:</strong>
+          <a href="https://github.com/FRANKOZNAKODIRATI/Trackwars" target="_blank">View on GitHub</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Socials</h2>
+      <ul class="socials">
+        <li>
+          <img class="icon" src="https://i.imgur.com/2laih0c.jpeg" alt="Instagram icon" />
+          Instagram: <a href="https://www.instagram.com/sr.mr.freaky?igsh=ZmNrcWpweWw0a2lp" target="_blank">@sr.mr.freaky</a>
+        </li>
+        <li>
+          <img class="icon" src="https://i.imgur.com/nih8pTU.jpeg" alt="X (Twitter) icon" />
+          X (Twitter): <a href="https://x.com/FrankoPacaric" target="_blank">@FrankoPacaric</a>
+        </li>
+        <li>
+          <img class="icon" src="https://i.imgur.com/bj45xmB.png" alt="Email icon" />
+          Email: <span class="email">fpacaric@gmail.com</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>GitHub</h2>
+      <p>
+        <img class="icon" src="https://i.imgur.com/BfGtqo7.jpeg" alt="GitHub icon" />
+        Check out all my work:
+        <a href="https://github.com/FRANKOZNAKODIRATI" target="_blank">github.com/FRANKOZNAKODIRATI</a>
+      </p>
+    </section>
+  </div>
+</body>
+</html>
